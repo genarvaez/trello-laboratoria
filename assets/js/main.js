@@ -1,6 +1,6 @@
 var inputName = document.getElementById("list-name");
 var listBox = document.getElementById("list-box");
-var prueba = document.getElementById("prueba");
+var prueba = document.getElementById("principal");
 var listArr = [];
 var listTarea = [];
 
@@ -78,9 +78,9 @@ function textArea(){
 	boxText.appendChild(addButton);
 
 	var button = document.getElementById("addTarea");
-	button.addEventListener("click", prueba)
+	button.addEventListener("click", listInBox)
 
- 	function prueba(){
+ 	function listInBox(){
  	var textTarea = document.getElementById("textarea").value;
  	listArr[0].content = textTarea;
  	listTarea.push(textTarea);
@@ -90,10 +90,6 @@ function textArea(){
  	ulList.appendChild(liList);
  	boxText.appendChild(ulList);
  	document.getElementById("textarea").value = "";
-
-
-
-
  }
 
 }
