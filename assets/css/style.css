@@ -1,0 +1,124 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+body{
+	background-color: #00BFFF;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.list{
+	margin: 10px;
+	padding: 20px;
+	width: 400px;
+	height: 30px;
+	border-radius: 10px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */
+
+}
+.transformBg {
+	background-color: rgba(238, 220, 255, 0.6);
+	padding: 10px;
+	width: 320px;
+	margin: 10px;
+	border-radius: 8px; 
+    -moz-border-radius:10px; /* Firefox */ 
+    -webkit-border-radius:10px; /* Safari y Chrome */
+}
+#list-name{
+	background-color: rgba(214, 71, 211, 0.2);
+	color: whitesmoke;
+	margin: 10px;
+	width: 300px;
+	height: 30px;
+	border: none;
+	border-radius: 5px; 
+    -moz-border-radius:5px; /* Firefox */ 
+    -webkit-border-radius:5px; /* Safari y Chrome */
+    display: block;
+
+}
+::-webkit-input-placeholder { 
+	color: whitesmoke; }
+:-moz-placeholder { 
+	color: whitesmoke; } 
+::-moz-placeholder { 
+	color: whitesmoke; } 
+:-ms-input-placeholder { 
+	color: whitesmoke; }
+
+#newButton{
+	background-color: #01DF74;
+	margin: 10px;
+	color: white;
+	font-weight: bolder;
+	height: 40px;
+	width: 100px;
+	border: none;
+	border-radius: 5px; 
+    -moz-border-radius:5px; /* Firefox */ 
+    -webkit-border-radius:5px; /* Safari y Chrome */
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+	color: #00BFFF; 
+    height:30px;
+    z-index:1000; 
+    margin:0;
+    padding: 0px;
+    background:#0489B1;
+   
+}
+h1{
+	margin: 0;
+	padding: 0;
+	font-family: 'Condiment', cursive;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.content{
+	background-color: #00BFFF;
+}
+
+
+.cardSpace{
+	background-color: #E6E6E6;
+	margin: 10px;
+	padding: 10px;
+	width: 320px;
+	border-radius: 8px; 
+    -moz-border-radius:8px; /* Firefox */ 
+    -webkit-border-radius:8px;
+    cursor: pointer;
+}
+.cardSpace p{
+	color: blue;
+
+}
+textarea{
+	margin: 5px;
+	display: block;
+	width: 300px;
+	border-radius: 5px; 
+    -moz-border-radius:5px; /* Firefox */ 
+    -webkit-border-radius:5px;
+}
+#addTarea{
+	background-color: #01DF74;
+	margin: 10px;
+	margin-left: 5px;
+	padding-left: 5px;
+	color: white;
+	font-weight: bolder;
+	height: 40px;
+	width: 100px;
+	border: none;
+	border-radius: 5px; 
+    -moz-border-radius:5px; /* Firefox */ 
+    -webkit-border-radius:5px; /* Safari y Chrome */
+}
